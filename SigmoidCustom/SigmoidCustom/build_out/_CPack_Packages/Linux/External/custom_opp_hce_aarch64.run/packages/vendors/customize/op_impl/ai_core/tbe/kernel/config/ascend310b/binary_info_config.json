@@ -1,0 +1,39 @@
+{
+  "SigmoidCustom": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "optionalInputMode": "gen_placeholder",
+    "optionalOutputMode": "gen_placeholder",
+    "params": {
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "paramType": "required",
+          "formatMode": "static_nd_agnostic"
+        }
+      ]
+    },
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": [
+          "SigmoidCustom/d=0,p=1/1,2/1,2",
+          "SigmoidCustom/d=0,p=0/1,2/1,2",
+          "SigmoidCustom/d=1,p=1/1,2/1,2",
+          "SigmoidCustom/d=1,p=0/1,2/1,2"
+        ],
+        "binPath": "ascend310b/sigmoid_custom/SigmoidCustom_a3c9eb1f1b227778957282b95ed93786.o",
+        "jsonPath": "ascend310b/sigmoid_custom/SigmoidCustom_a3c9eb1f1b227778957282b95ed93786.json"
+      }
+    ]
+  }
+}
