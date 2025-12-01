@@ -1,0 +1,108 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "Pdist/d=0,p=1/0,2/0,2",
+        "Pdist/d=0,p=0/0,2/0,2",
+        "Pdist/d=1,p=1/0,2/0,2",
+        "Pdist/d=1,p=0/0,2/0,2"
+      ],
+      "staticKey": "fc7c64e4a23910ca38d9ecf8e29c0a37df0c171f572768ed7a5ba0ab5d60d4ec,794cb4832899a70050bca87528bcf29bc742bfabd2bad2c5aa0b2e32ea7086fb",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "p",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend910b/pdist/Pdist_16996420756afb19140baf25c1330ba0.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "Pdist/d=0,p=1/1,2/1,2",
+        "Pdist/d=0,p=0/1,2/1,2",
+        "Pdist/d=1,p=1/1,2/1,2",
+        "Pdist/d=1,p=0/1,2/1,2"
+      ],
+      "staticKey": "f9147208494976553a1de70562161fe6efc049266be888715891dc275f8c188f,6a2ad7562b2656bd8f5118a2cac862a01965970bbc7d0ab2e263e9bdb0e2d3d7",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "p",
+          "dtype": "float",
+          "value": 0.0
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "optionalOutputMode": "gen_placeholder",
+      "binInfo": {
+        "jsonFilePath": "ascend910b/pdist/Pdist_bc0ddcf31cab9c23dc21a02108acf75a.json"
+      }
+    }
+  ]
+}
