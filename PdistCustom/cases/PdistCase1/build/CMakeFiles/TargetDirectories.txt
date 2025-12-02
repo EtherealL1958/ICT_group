@@ -1,7 +1,0 @@
-/home/ICT/PdistCustom/cases/PdistCase1/build/CMakeFiles/execute_op.dir
-/home/ICT/PdistCustom/cases/PdistCase1/build/CMakeFiles/edit_cache.dir
-/home/ICT/PdistCustom/cases/PdistCase1/build/CMakeFiles/rebuild_cache.dir
-/home/ICT/PdistCustom/cases/PdistCase1/build/CMakeFiles/list_install_components.dir
-/home/ICT/PdistCustom/cases/PdistCase1/build/CMakeFiles/install.dir
-/home/ICT/PdistCustom/cases/PdistCase1/build/CMakeFiles/install/local.dir
-/home/ICT/PdistCustom/cases/PdistCase1/build/CMakeFiles/install/strip.dir
