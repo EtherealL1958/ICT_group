@@ -1,0 +1,28 @@
+# ----------------------------------------------------------------------
+# - Compile time options -----------------------------------------------
+# ----------------------------------------------------------------------
+#HPCG_OPTS     = -DHPCG_NO_MPI=0
+#HPCG_OPTS    += -DHPCG_NO_OPENMP=0
+
+# 只启用 NEON，禁用 SVE
+HPCG_OPTS     += -DHPCG_CONTIGUOUS_ARRAYS
+HPCG_OPTS     += -DHPCG_USE_NEON
+
+# HPCG_OPTS     += -DHPCG_USE_FUSED_SYMGS_SPMV
+
+HPCG_DEFS     = $(HPCG_OPTS) $(HPCG_INCLUDES)
+
+# ----------------------------------------------------------------------
+# - Compilers / linkers - Optimization flags ---------------------------
+# ----------------------------------------------------------------------
+CXX           = mpicxx
+
+# 针对 Kunpeng 920 
+CXXFLAGS      = $(HPCG_DEFS) -O3 -ffast-math -ftree-vectorize \
+                -mcpu=tsv110 \
+                -fopenmp -fomit-frame-pointer \
+                -funroll-loops -falign-functions=64 -falign-jumps=64 \
+                -falign-loops=64 -falign-labels=64
+
+LINKER        = $(CXX)
+LINKFLAGS     = $(CXXFLAGS) $(HPCG_LIBS)

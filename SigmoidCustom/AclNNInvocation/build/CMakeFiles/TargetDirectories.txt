@@ -1,0 +1,7 @@
+/home/ICT/SigmoidCustom/AclNNInvocation/build/CMakeFiles/execute_sigmoid_op.dir
+/home/ICT/SigmoidCustom/AclNNInvocation/build/CMakeFiles/edit_cache.dir
+/home/ICT/SigmoidCustom/AclNNInvocation/build/CMakeFiles/rebuild_cache.dir
+/home/ICT/SigmoidCustom/AclNNInvocation/build/CMakeFiles/list_install_components.dir
+/home/ICT/SigmoidCustom/AclNNInvocation/build/CMakeFiles/install.dir
+/home/ICT/SigmoidCustom/AclNNInvocation/build/CMakeFiles/install/local.dir
+/home/ICT/SigmoidCustom/AclNNInvocation/build/CMakeFiles/install/strip.dir
